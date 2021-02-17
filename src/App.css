@@ -3,6 +3,14 @@
   font-size: large;
 }
 
+.alink {
+  text-decoration: none;
+  color: #000;
+}
+.alink:hover {
+  color: red;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;

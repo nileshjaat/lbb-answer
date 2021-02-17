@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import Pics from "./Pics";
 import Pagination from "./Pagination";
 import axios from "axios";
-import { API_KEY } from "../config";
-import { BASE_URL } from "../constants";
+import { API_KEY, BASE_URL } from "../config";
 
 const ImageGallery = ({ lat, lon }) => {
   const [pics, setPics] = useState([]);
